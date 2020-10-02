@@ -41,10 +41,10 @@ int main()
     ls->next= NULL;
     do
     {
-    cout<<"Write 1 to register a new student\n";
-    cout<<"Write 2 to display lists of students registered\n";
-    cout<<"Write 3 to register in subject\n";
-    cout<<"Write 4 to quit\n";
+    cout<<"Enter 1 to register a new student\n";
+    cout<<"Enter 2 to display lists of students registered\n";
+    cout<<"Enter 3 to register in subject\n";
+    cout<<"Enter 4 to quit\n";
     int input;
     cin>>input;
     if (input == 1)
